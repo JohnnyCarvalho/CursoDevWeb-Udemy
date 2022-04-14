@@ -1,8 +1,8 @@
-Number.prototype.entre = (inicio, fim) => {
+Number.prototype.entre = function (inicio, fim) {
     return this >= inicio && this <= fim;
 }
 
-imprimeResultado = (nota) => {
+imprimeResultado =function (nota) {
     if (nota.entre(9, 10))
     {
         console.log('Quadro de honra!');
@@ -22,14 +22,14 @@ imprimeResultado = (nota) => {
     console.log('Fim!!!');
 }
 
-const nota1  = (9.1);
+const nota1  = (10);
 imprimeResultado(nota1);
 
-const nota2 = (7.1);
+const nota2 = (8.9);
 imprimeResultado(nota2);
 
-const nota3 = (6.9)
+const nota3 = (6.55)
 imprimeResultado(nota3)
 
-const nota4 = (11);
+const nota4 = (-1);
 imprimeResultado(nota4);
