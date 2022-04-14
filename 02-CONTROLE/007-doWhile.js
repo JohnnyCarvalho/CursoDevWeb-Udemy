@@ -14,5 +14,7 @@ console.log('Até a próxima!!');
 
 /**
  * @author Johnny Carvalho
- * Essa expressão é bem pouco usada, a principal diferença entre ela e o While tradicional é que, o bloco de código vai ser executado pelo menos uma vez, mesmo o contador já iniciando com a espressão false como no exemplo acima.
+ * Essa expressão é bem pouco usada, a principal diferença entre ela e o While tradicional é que, o bloco de 
+ * código vai ser executado pelo menos uma vez, mesmo o contador já iniciando com a espressão false como no 
+ * exemplo acima ou até mesmo se o contador não receber nenhum valor, mesmo assim o bloco vai ser executado.
  */
